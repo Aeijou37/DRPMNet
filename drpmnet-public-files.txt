@@ -1,0 +1,14 @@
+.gitignore
+README.md
+drpmnet-public-files.txt
+drpmnet/__init__.py
+drpmnet/modules/__init__.py
+drpmnet/modules/drdbn.py
+drpmnet/modules/eacl.py
+drpmnet/modules/pmaf.py
+drpmnet_configs/cityscapes.example.yaml
+drpmnet_configs/coco2017.example.yaml
+paper_docs/manuscript_protocol.md
+paper_docs/release_status.md
+requirements.txt
+scripts/smoke_test_drpmnet.py

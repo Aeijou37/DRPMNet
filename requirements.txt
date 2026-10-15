@@ -1,0 +1,3 @@
+# Standalone PyTorch module checks; this is not a full-model training environment.
+# See paper_docs/manuscript_protocol.md for the manuscript software record.
+torch==2.5.1

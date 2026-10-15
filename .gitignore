@@ -1,0 +1,39 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+# Research data, generated outputs and model artifacts
+/datasets/
+/weights/
+/checkpoints/
+/runs/
+/wandb/
+/logs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
+*.log
+# Manuscript drafts and private backup archives
+*.doc
+*.docx
+*.pdf
+*.bundle
+*.zip
+/private_backup/
+/private_review/
+/release_review/
+.DS_Store
+Thumbs.db

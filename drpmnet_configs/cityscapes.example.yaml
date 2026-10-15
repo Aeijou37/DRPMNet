@@ -1,0 +1,16 @@
+# Path template only. Prepare instance polygon labels and verify class IDs first.
+# Paths are relative to the directory from which your dataset loader is invoked.
+# These files do not provide annotation conversion or full-model training.
+path: ./datasets/cityscapes_yolo
+train: images/train
+val: images/val
+nc: 8
+names:
+  0: person
+  1: rider
+  2: car
+  3: truck
+  4: bus
+  5: train
+  6: motorcycle
+  7: bicycle
